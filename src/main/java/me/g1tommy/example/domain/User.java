@@ -1,8 +1,8 @@
 package me.g1tommy.example.domain;
 
+import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-import lombok.RequiredArgsConstructor;
 import lombok.ToString;
 
 import javax.persistence.Column;
@@ -11,7 +11,7 @@ import javax.persistence.Id;
 
 @Entity
 @NoArgsConstructor
-@RequiredArgsConstructor
+@AllArgsConstructor
 @Getter
 @ToString
 public class User {
